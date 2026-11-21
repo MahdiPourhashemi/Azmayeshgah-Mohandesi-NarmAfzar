@@ -1,0 +1,32 @@
+# Ignore Visual Studio build and workspace folders at every depth.
+**/x64/
+**/.vs/
+
+# This repository publishes only each app's main source file.
+*
+!.gitignore
+!.gitattributes
+
+!/ConsoleApplication1/
+/ConsoleApplication1/*
+!/ConsoleApplication1/ConsoleApplication1/
+/ConsoleApplication1/ConsoleApplication1/*
+!/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.cpp
+
+!/ConsoleApplication2/
+/ConsoleApplication2/*
+!/ConsoleApplication2/ConsoleApplication2/
+/ConsoleApplication2/ConsoleApplication2/*
+!/ConsoleApplication2/ConsoleApplication2/ConsoleApplication2.cpp
+
+!/Packet capturing/
+/Packet capturing/*
+!/Packet capturing/Packet capturing/
+/Packet capturing/Packet capturing/*
+!/Packet capturing/Packet capturing/Packet capturing.cpp
+
+!/accountant/
+/accountant/*
+!/accountant/accountant/
+/accountant/accountant/*
+!/accountant/accountant/accountant.cpp
